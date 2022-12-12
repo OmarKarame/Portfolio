@@ -101,6 +101,18 @@
             justify-content: center;
             cursor: pointer;
         }
+        &:active{
+            width: 14.5rem;
+            aspect-ratio: 1;
+            position: fixed;
+            border: 0.4rem solid $color-orange;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 100ms;
+        }
     }
     .white-circle{
         background-color: $color-white;
@@ -202,6 +214,18 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
+        }
+        &:active{
+            width: 14.5rem;
+            aspect-ratio: 1;
+            position: fixed;
+            border: 0.4rem solid $color-orange;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 100ms;
         }
     }
     .white-circle{

@@ -29,7 +29,7 @@ const Contact = () => {
                 <FreeTypeInput />
                 <div className='button-section'>
                     <div className='buttons'>
-                        <WhiteButton buttonText={"Close"} />
+                        <WhiteButton buttonText={"Clear"} />
                         <OrangeButton buttonText={"Submit"} />
                     </div>
                 </div>
