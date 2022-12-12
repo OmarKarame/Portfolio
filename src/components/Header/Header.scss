@@ -1,0 +1,32 @@
+@use "../../styles/_variables.scss" as *;
+
+.header-home {
+    color: $color-black;
+    width: 26.56rem;
+    position: fixed;
+    left: 12vw;
+    top: 7rem;
+    mix-blend-mode: difference;
+    h1 {
+        letter-spacing: -1rem;
+    }
+    h6 {
+        font-weight: $font-weight-regular;
+        margin: 0rem 0.75rem;
+    }
+}
+
+.header-contact {
+    color: $color-white;
+    width: 26.56rem;
+    position: fixed;
+    left: 10vw;
+    top: 7rem;
+    h1 {
+        letter-spacing: -1rem;
+    }
+    h6 {
+        font-weight: $font-weight-regular;
+        margin: 0rem 0.75rem;
+    }
+}

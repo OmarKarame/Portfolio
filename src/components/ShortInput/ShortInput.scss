@@ -1,0 +1,31 @@
+@use "../../styles/_variables.scss" as *;
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_typography.scss" as *;
+
+.short-input {
+    label {
+        color: $color-white;
+        font-size: $font-size-medium;
+        margin-left: 0.5rem;
+        font-weight: 800;
+        mix-blend-mode: difference;
+    }
+    
+    input {
+        border: 0.25rem solid $color-black;
+        border-radius: 1rem;
+        height: 3rem;
+        width: 100%;
+        margin-bottom: 0.5rem;
+        margin-top: 0.2rem;
+        padding: 0.5rem;
+        line-height: 1.2rem;
+        font-size: 1.25rem;
+        &:focus {
+            border: 0.25rem solid $color-orange;
+            outline: none;
+          }
+    }
+    
+}
+

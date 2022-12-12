@@ -1,0 +1,222 @@
+@use "../../styles/_variables.scss" as *;
+
+.background-rectangle {
+    background-color: $color-black;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 70vw;
+    // &:hover{
+    //     background-color: $color-black;
+    //     height: 100vh;
+    //     width: 100vw;
+    //     position: fixed;
+    //     left: 0rem;
+    // }
+    .large-circle-home-page {
+        width: 42rem;
+        padding: 8rem;
+        border: 0.1rem solid rgb(88, 88, 88);
+        border-radius: 100%;
+        height: 42rem;
+        aspect-ratio: 1;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: -21rem;
+        top: 5.5rem;
+        border-radius: 50%;
+        // transition: 800ms;
+        .inner-circle{
+            height: 100%;
+            aspect-ratio: 1;
+            filter: blur(0.6rem);
+            background-image: linear-gradient(to right, $color-black 50%, $color-white 50%);
+            border-radius: 100%;
+            z-index: 4;
+            position: relative;
+            left: -76.5rem;
+            top: 0.3rem;
+        }
+        img {
+            height: 24rem;
+            aspect-ratio: 1;
+            border-radius: 100%;
+            position: relative;
+            left: -101rem;
+            top: 0.3rem;
+            filter: blur(0.03rem);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            z-index: 5;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+
+        @keyframes fade-in-decoration {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        @keyframes fade-out-decoration {
+            from {opacity: 1;}
+            to {opacity: 0;}
+        }
+
+        .page-name-displayed {
+            left: 8rem;
+            top: -10rem;
+            animation: fade-in-decoration 800ms;
+            animation-timing-function: ease-in-out;
+            h2 span {
+                height: 15.5rem;
+                width: 0.5rem;
+                top: 6rem;
+                left: 23rem;
+                position: absolute;
+                transform-origin: bottom center;
+                color: $color-white;
+            }
+            .char1 { 
+                transform: rotate(62deg); 
+                
+            }
+            .char2 { transform: rotate(69deg); }
+            .char3 { transform: rotate(75deg); }
+            .char4 { transform: rotate(81deg); }
+            .char5 { transform: rotate(87deg); }
+            .char6 { transform: rotate(90deg); }
+            .char7 { transform: rotate(96deg); }
+            .char8 { transform: rotate(106deg); }
+        }
+        
+        .page-name {
+            left: 10rem;
+            animation: fade-out-decoration 800ms;
+            animation-timing-function: ease-in-out;
+            font-size: 0rem;
+            h2 span {
+                height: 15.5rem;
+                width: 0.5rem;
+                top: 5rem;
+                left: 24rem;
+                position: absolute;
+                transform-origin: bottom center;
+                color: $color-black;
+            }
+            .char1 { 
+                transform: rotate(65deg); 
+            }
+            .char2 { transform: rotate(75deg); }
+            .char3 { transform: rotate(86deg); }
+            .char4 { transform: rotate(92deg); }
+            .char5 { transform: rotate(98deg); }
+            .char6 { transform: rotate(100deg); }
+            .char7 { transform: rotate(16deg); }
+            .char8 { transform: rotate(118deg); }
+        }
+
+        .decoration{
+            height: 76.5rem;
+            aspect-ratio: 1;
+            position: relative;
+            left: -25.25rem;
+            top: 0rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            transform: rotate(-130deg);
+            border-radius: 50%;
+            transition: 300ms;
+            animation: fade-in-decoration 800ms;
+            animation-timing-function: ease-in-out;
+            .black-decoration{
+                max-height: 21rem;
+                aspect-ratio: 1.5;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                .black-curve {
+                    box-sizing: border-box;
+                    margin-top: 17rem;
+                    height: 42rem;
+                    aspect-ratio: 1;
+                    border: 0.4rem solid $color-black;
+                    border-radius: 50%;
+                }
+            }
+            .white-decoration{
+                max-height: 21rem;
+                aspect-ratio: 1.5;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                .white-curve {
+                    box-sizing: border-box;
+                    transform: translateY(-38rem);
+                    height: 42rem;
+                    aspect-ratio: 1;
+                    border: 0.4rem solid $color-white;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        @keyframes spin {
+            from {transform: translate(-130deg)}
+            to {transform:rotate(230deg);}
+        }
+
+        .rotating-decoration{
+            height: 76.5rem;
+            aspect-ratio: 1;
+            position: relative;
+            left: -25.25rem;
+            top: 0rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            transform: rotate(-130deg);
+            border-radius: 50%;
+            transition: 300ms;
+            animation: spin 4s;
+            animation-timing-function: ease-in-out;
+            .black-decoration{
+                max-height: 21rem;
+                aspect-ratio: 1.5;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                .black-curve {
+                    box-sizing: border-box;
+                    margin-top: 17rem;
+                    height: 42rem;
+                    aspect-ratio: 1;
+                    border: 0.4rem solid $color-black;
+                    border-radius: 50%;
+                }
+            }
+            .white-decoration{
+                max-height: 21rem;
+                aspect-ratio: 1.5;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+                .white-curve {
+                    box-sizing: border-box;
+                    transform: translateY(-38rem);
+                    height: 42rem;
+                    aspect-ratio: 1;
+                    border: 0.4rem solid $color-white;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
