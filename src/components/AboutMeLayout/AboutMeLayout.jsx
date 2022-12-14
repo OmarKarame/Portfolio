@@ -1,6 +1,7 @@
 import './AboutMeLayout.scss';
 import LargeSemiCircle from '../../components/LargeSemiCircle/LargeSemiCircle';
 import Header from '../Header/Header';
+import AboutMeNav from '../AboutMeNav/AboutMeNav';
 
 const AboutMeLayout = ({ mainHeader, secondaryHeader}) => {
   return (
@@ -11,7 +12,7 @@ const AboutMeLayout = ({ mainHeader, secondaryHeader}) => {
         secondaryHeader={secondaryHeader}
         headerClassName={"header-about-me"}
       />
-      
+      <AboutMeNav />
     </div>
   )
 }

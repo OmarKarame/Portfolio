@@ -1,0 +1,88 @@
+@use "../../styles/_variables.scss" as *;
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_typography.scss" as *;
+
+.about-me-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: $font-weight-regular;
+    position: fixed;
+    left: 11.5rem;
+    top: 28rem;
+    .intro {
+        color: $color-white;
+        opacity: 50%;
+        margin: 0.35rem 0rem;
+        margin-left: 4rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .skills{
+        color: $color-white;
+        opacity: 50%;
+        margin: 0.35rem 0rem;
+        margin-left: 3rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .projects{
+        color: $color-white;
+        opacity: 50%;
+        margin: 0.35rem 0rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .interests{
+        color: $color-white;
+        opacity: 50%;
+        margin: 0.35rem 0rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .intro-selected{
+        color: white;
+        margin: 0.35rem 0rem;
+        margin-left: 4rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .skills-selected{
+        color: white;
+        margin: 0.35rem 0rem;
+        margin-left: 3rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .projects-selected{
+        color: white;
+        margin: 0.35rem 0rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .interests-selected{
+        color: white;
+        margin: 0.35rem 0rem;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

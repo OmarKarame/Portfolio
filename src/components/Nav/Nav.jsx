@@ -9,7 +9,6 @@ const Nav = () => {
     const [aboutMeClassName, setAboutMeClassName] = useState('link');
     const location = useLocation();
     const changeNavBar = () => {
-        console.log(location.pathname);
         if (location.pathname === '/') {
             setNavClassName('nav');
             setHomeClassName('link-selected');

@@ -1,0 +1,8 @@
+@use "../../styles/_variables.scss" as *;
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_typography.scss" as *;
+
+.about-me-skills{
+    width: 100%;
+    background-color: $color-black;
+}

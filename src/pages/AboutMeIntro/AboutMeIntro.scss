@@ -2,18 +2,7 @@
 @use "../../styles/_reset.scss" as *;
 @use "../../styles/_typography.scss" as *;
 
-#root {
-    &::-webkit-scrollbar {
-        display: none;
-      }
-}
-
 .about-me-intro{
     width: 100%;
     background-color: $color-black;
-    overflow: hidden;
-    &::-webkit-scrollbar {
-        display: none;
-      }
-
 }
