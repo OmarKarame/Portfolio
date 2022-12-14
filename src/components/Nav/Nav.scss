@@ -1,13 +1,16 @@
 @use "../../styles/_variables.scss" as *;
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_typography.scss" as *;
 
 .nav{
     height: 7.5vh;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    overflow: hidden;
     &__links{
         width: 20rem;
         display: flex;
@@ -18,11 +21,12 @@
         height: 7.5vh;
         width: 100vw;
         background-color: rgba(250, 250, 250, 0.02);
-        position: absolute;
+        position: fixed;
         bottom: 0;
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        overflow: hidden;
         &__links{
             width: 20rem;
             display: flex;

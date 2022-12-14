@@ -3,6 +3,7 @@
 @use "../../styles/_typography.scss" as *;
 
 .white-button{
+    position: relative;
     height: 2.5rem;
     width: 5rem;
     border-radius: 0.5rem;

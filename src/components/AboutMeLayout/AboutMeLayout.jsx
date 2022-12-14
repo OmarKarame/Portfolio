@@ -1,9 +1,17 @@
-import './AboutMeIntro.scss';
+import './AboutMeLayout.scss';
+import LargeSemiCircle from '../../components/LargeSemiCircle/LargeSemiCircle';
+import Header from '../Header/Header';
 
-const AboutMeLayout = () => {
+const AboutMeLayout = ({ mainHeader, secondaryHeader}) => {
   return (
-    <div>
-
+    <div className='about-me-layout'>
+      <LargeSemiCircle /> 
+      <Header 
+        mainHeader={mainHeader}
+        secondaryHeader={secondaryHeader}
+        headerClassName={"header-about-me"}
+      />
+      
     </div>
   )
 }

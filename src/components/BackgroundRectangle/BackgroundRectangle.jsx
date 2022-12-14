@@ -1,5 +1,5 @@
 import './BackgroundRectangle.scss';
-import omar from '../../styles/images/omar.PNG';
+import omar from '../../styles/images/omar.png';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
