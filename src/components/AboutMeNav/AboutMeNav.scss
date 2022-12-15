@@ -5,17 +5,16 @@
 .about-me-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-weight: $font-weight-regular;
     position: fixed;
-    left: 11.5rem;
-    top: 28rem;
+    left: 8rem;
+    top: 29rem;
     .intro {
         color: $color-white;
         opacity: 50%;
         margin: 0.35rem 0rem;
-        margin-left: 4rem;
+        margin-left: 4.5rem;
         cursor: pointer;
         &:hover{
             text-decoration: underline;
@@ -35,7 +34,7 @@
         color: $color-white;
         opacity: 50%;
         margin: 0.35rem 0rem;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
         cursor: pointer;
         &:hover{
             text-decoration: underline;
@@ -53,7 +52,7 @@
     .intro-selected{
         color: white;
         margin: 0.35rem 0rem;
-        margin-left: 4rem;
+        margin-left: 4.5rem;
         cursor: pointer;
         &:hover{
             text-decoration: underline;
@@ -71,7 +70,7 @@
     .projects-selected{
         color: white;
         margin: 0.35rem 0rem;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
         cursor: pointer;
         &:hover{
             text-decoration: underline;

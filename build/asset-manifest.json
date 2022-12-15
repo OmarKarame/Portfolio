@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f40e2a5.css",
-    "main.js": "/static/js/main.39fb1e26.js",
+    "main.css": "/static/css/main.1617d9ce.css",
+    "main.js": "/static/js/main.22ad265d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/omar.png": "/static/media/omar.59e187b01086ac80b493.png",
+    "static/media/queen-mary.png": "/static/media/queen-mary.091622bda2380a62b436.png",
+    "static/media/nology.png": "/static/media/nology.1e4612b8f72f706b8d49.png",
+    "static/media/vex-robotics.png": "/static/media/vex-robotics.31448a160ee37c2486d2.png",
     "static/media/Ailerons-Typeface.otf": "/static/media/Ailerons-Typeface.29602053d4de24fcf29c.otf",
     "index.html": "/index.html",
-    "main.1f40e2a5.css.map": "/static/css/main.1f40e2a5.css.map",
-    "main.39fb1e26.js.map": "/static/js/main.39fb1e26.js.map",
+    "main.1617d9ce.css.map": "/static/css/main.1617d9ce.css.map",
+    "main.22ad265d.js.map": "/static/js/main.22ad265d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f40e2a5.css",
-    "static/js/main.39fb1e26.js"
+    "static/css/main.1617d9ce.css",
+    "static/js/main.22ad265d.js"
   ]
 }

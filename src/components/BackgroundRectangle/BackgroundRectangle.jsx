@@ -1,5 +1,5 @@
 import './BackgroundRectangle.scss';
-import omar from '../../styles/images/omar.png';
+import Omar from '../../styles/images/omar.png';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ const BackgroundRectangle = () => {
             </div>
             <Link to={"/aboutmeintro"}>
                 <img 
-                    src={omar}
+                    src={Omar}
                     alt="Omar Karame" 
                     onMouseEnter={() => {
                             setIsRotatingClass("rotating-decoration")
