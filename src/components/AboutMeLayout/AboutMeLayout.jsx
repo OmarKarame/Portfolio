@@ -3,7 +3,7 @@ import LargeSemiCircle from '../../components/LargeSemiCircle/LargeSemiCircle';
 import Header from '../Header/Header';
 import AboutMeNav from '../AboutMeNav/AboutMeNav';
 
-const AboutMeLayout = ({ mainHeader, secondaryHeader}) => {
+const AboutMeLayout = ({ mainHeader, secondaryHeader }) => {
   return (
     <div className='about-me-layout'>
       <LargeSemiCircle /> 

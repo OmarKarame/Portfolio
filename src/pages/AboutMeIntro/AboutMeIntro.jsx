@@ -8,8 +8,9 @@ const AboutMeIntro = () => {
         <AboutMeLayout 
           mainHeader={"Intro"}
           secondaryHeader={"This is an intro into my journey to become a Software Engineer and Technology Consultant."}
+          // percentage={}
         /> 
-        <IntroSection />
+          <IntroSection />
     </div>
   )
 }
