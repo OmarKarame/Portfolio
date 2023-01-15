@@ -1,0 +1,225 @@
+@use "../../styles/_variables.scss" as *;
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_typography.scss" as *;
+
+.interests-section{
+    top: 5rem;
+    width: 50%;
+    height: 92.5vh;
+    left: 49.5vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: $color-white;
+    &__gifs-carousel{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 1;
+        margin-top: 2rem;
+        width: 50vw;
+    }
+    .left-arrowhead{
+        position: relative;
+        transform: rotateZ(180deg);
+        height: 70px;
+        aspect-ratio: auto;
+        margin: 0rem 3rem;
+        z-index: 10;
+        &:hover{
+            transform: rotateZ(180deg);
+            height: 70px;
+            aspect-ratio: auto;
+            margin: 0rem 3rem;
+            cursor: pointer;
+        }
+        &:active{
+            transform: rotateZ(180deg);
+            height: 50px;
+            aspect-ratio: auto;
+            margin: 0rem 4rem;
+            transition: 100ms;
+        }
+    }
+    .left-arrowhead-faded{
+        position: relative;
+        transform: rotateZ(180deg);
+        height: 70px;
+        aspect-ratio: auto;
+        margin: 0rem 3rem;
+        opacity: 0.3;
+        z-index: 10;
+        &:hover{
+            transform: rotateZ(180deg);
+            height: 70px;
+            aspect-ratio: auto;
+            margin: 0rem 3rem;
+            opacity: 0.3;
+            cursor: pointer;
+        }
+    }
+    .right-arrowhead{
+        position: relative;
+        height: 70px;
+        aspect-ratio: auto;
+        margin: 0rem 3rem;
+        z-index: 10;
+        &:hover{
+            height: 70px;
+            aspect-ratio: auto;
+            margin: 0rem 3rem;
+            cursor: pointer;
+        }
+        &:active{
+            height: 50px;
+            aspect-ratio: auto;
+            margin: 0rem 3.68rem;
+            transition: 100ms;
+        }
+    }
+    .right-arrowhead-faded{
+        position: relative;
+        height: 70px;
+        aspect-ratio: auto;
+        margin: 0rem 3rem;
+        opacity: 0.3;
+        z-index: 10;
+        &:hover{
+            height: 70px;
+            aspect-ratio: auto;
+            margin: 0rem 3rem;
+            opacity: 0.3;
+            cursor: pointer;
+        }
+    }
+    .Art{
+        height: 340px;
+        aspect-ratio: auto;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+        &.left-gif{
+            height: 90px;
+            aspect-ratio: auto;
+            transform: translateX(-17.5rem) translateY(0.75rem);
+            opacity: 0.3;
+        }
+        &.left-gif-start{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(-17rem);
+            opacity: 0;
+        }
+    }
+    .Sports{
+        height: 320px;
+        aspect-ratio: auto;
+        margin-bottom: 1.85rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        transform: translateX(-2.25rem);
+        &.left-gif{
+            height: 90px;
+            aspect-ratio: auto;
+            transform: translateX(-17rem) translateY(0.85rem);
+            opacity: 0.3;
+        }
+        &.right-gif{
+            height: 90px;
+            aspect-ratio: auto;
+            transform: translateX(17rem) translateY(0.75rem);
+            opacity: 0.2;
+        }
+    }
+    .Space{
+        margin-top: -3rem;
+        margin-bottom: -3.25rem;
+        margin-right: -16.75rem;
+        margin-left:-16.5rem;
+        height: 450px;
+        transform: translateX(-1.25rem);
+        aspect-ratio: auto;
+        &.left-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(-16.5rem);
+            opacity: 0.2;
+        }
+        &.right-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(15rem) translateY(0rem);
+            opacity: 0.2;
+        }
+    }
+    .Podcasts{
+        height: 350px;
+        margin-right: -16rem;
+        margin-left:-16rem;
+        aspect-ratio: auto;
+        transform: translateX(1.25rem);
+        &.left-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(-16rem);
+            opacity: 0.2;
+        }
+        &.right-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(16rem) translateY(-0.4rem);
+            opacity: 0.2;
+        }
+    }
+    .Origami{
+        height: 350px;
+        margin-right: -16rem;
+        margin-left:-16rem;
+        aspect-ratio: auto;
+        transform: translateX(1.25rem);
+        &.left-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(-17rem);
+            opacity: 0.2;
+        }
+        &.right-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(17.5rem) translateY(-0.35rem);
+            opacity: 0.2;
+        }
+    }
+    .Gaming{
+        height: 350px;
+        margin-right: -16rem;
+        margin-left:-16rem;
+        aspect-ratio: auto;
+        &.left-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(-17rem);
+            opacity: 0.2;
+        }
+        &.right-gif{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(17rem) translateY(-0.25rem);
+            opacity: 0.2;
+        }
+        &.right-gif-end{
+            height: 100px;
+            aspect-ratio: auto;
+            transform: translateX(17rem) translateY(0rem);
+            opacity: 0;
+        }
+    }
+    &__hand{
+        height: 350px;
+        aspect-ratio: auto;
+        transform: rotateZ(170deg) translateY(170px) translateX(-25px);
+        z-index: 0;
+    }
+}
