@@ -16,38 +16,44 @@
     overflow-y: scroll;
     -ms-overflow-style: none; 
     scrollbar-width: none;
+    justify-content: space-between;
     &::-webkit-scrollbar {
         display: none;
     }
+    .content-section{
+        margin-top: -3rem;
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
     .vex-robotics {
         height: 17.5rem;
-        margin-top: 1rem;
-        margin-bottom: -2rem;
     }
     .vex-robotics-paragraph {
-        width: 60%;
+        width: 70%;
         text-align: center;
-        margin: 8rem 0rem;
+        margin-bottom: 4rem;
     }
     .queen-mary {
         height: 13.5rem;
-        margin-top: 2rem;
-        margin-bottom: -2rem;
         border-radius: 50%;
+        margin-top: 3rem;
     }
     .queen-mary-paragraph {
-        width: 60%;
+        width: 70%;
         text-align: center;
-        margin: 10rem 0rem;
+        margin-bottom: 3rem;
     }
     .nology {
         height: 10.5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 12rem;
+        margin-top: 3rem;
     }
     .nology-paragraph {
-        width: 60%;
+        width: 70%;
         text-align: center;
         margin-bottom: 10rem;
-        margin-top: 6rem;
     }
 }
