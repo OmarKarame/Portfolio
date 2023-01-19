@@ -1,0 +1,277 @@
+@use "../../styles/_variables.scss" as *;
+@use "../../styles/_reset.scss" as *;
+@use "../../styles/_typography.scss" as *;
+
+.projects-section{
+    top: 0rem;
+    width: 60rem;
+    height: 92.5vh;
+    left: 46.5vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-white;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    justify-content: space-between;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    .projects-components{
+        width: 40rem;
+        display: grid;
+        grid-template-areas: 
+            'cryptocurrency-image cryptocurrency-content'
+            'weather-content weather-image'
+            'calculator-image calculator-content'
+            'art-gallery-content art-gallery-image'
+            'flat-finder-image flat-finder-content';
+    }
+    .image-content{
+        &-cryptocurrency{
+            grid-area: cryptocurrency-image;
+            height: 18.1rem;
+            width: 20.25rem;
+            aspect-ratio: 1.1;
+            border-bottom: 0.2rem solid #fafafa0d;
+            border-left: 0.2rem solid #fafafa0d;
+            border-right: 0.2rem solid #fafafa0d;
+            overflow: hidden;
+            .image-section{
+                .cryptocurrency-image{
+                    width: 20rem;
+                    height: 17.95rem;
+                }
+                .cryptocurrency-gif{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                &:hover{
+                    transform: translateY(-18.2rem);
+                }
+            }
+        }
+        &-weather{
+            grid-area: weather-image;
+            border-bottom: 0.2rem solid #fafafa0d;
+            border-right: 0.2rem solid #fafafa0d;
+            height: 18.2rem;
+            overflow: hidden;
+            .image-section{
+                .weather-image{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                .weather-gif{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                &:hover{
+                    transform: translateY(-18.2rem);
+                }
+            }
+        }
+        &-calculator{
+            grid-area: calculator-image;
+            border-right: 0.2rem solid #fafafa0d;
+            border-bottom: 0.2rem solid #fafafa0d;
+            border-left: 0.2rem solid #fafafa0d;
+            height: 18.2rem;
+            overflow: hidden;
+            .image-section{
+                .calculator-image{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                .calculator-gif{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                &:hover{
+                    transform: translateY(-18.2rem);
+                }
+            }
+        }
+        &-art-gallery{
+            grid-area: art-gallery-image;
+            border-right: 0.2rem solid #fafafa0d;
+            border-bottom: 0.2rem solid #fafafa0d;
+            border-top: 0.2rem solid #fafafa0d;
+            height: 18.2rem;
+            overflow: hidden;
+            .image-section{
+                .art-gallery-image{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                .art-gallery-gif{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                &:hover{
+                    transform: translateY(-18.2rem);
+                }
+            }
+        }
+        &-flat-finder{
+            grid-area: flat-finder-image;
+            border-left: 0.2rem solid #fafafa0d;
+            border-right: 0.2rem solid #fafafa0d;
+            border-bottom: 0.2rem solid #fafafa0d;
+            height: 18.2rem;
+            overflow: hidden;
+            .image-section{
+                .flat-finder-image{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                .flat-finder-gif{
+                    width: 20rem;
+                    height: 18rem;
+                }
+                &:hover{
+                    transform: translateY(-18.2rem);
+                }
+            }
+        }
+    }
+    .project-content{
+        &-cryptocurrency{
+            max-height: 18.2rem;
+            width: 20.2rem;
+            grid-area: cryptocurrency-content;
+            border-right: 0.2rem solid #fafafa0d;
+            border-bottom: 0.2rem solid #fafafa0d;
+            overflow-y: hidden;
+            .content-section{
+                transition: all 400ms ease;
+                overflow-y: scroll;
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                &:hover{
+                    transform: translateY(-18rem);
+                    transition: 500ms ease;
+                    overflow-y: hidden;
+                }
+            }
+        }
+        &-weather{
+            max-height: 18.2rem;
+            grid-area: weather-content;
+            border-right: 0.2rem solid #fafafa0d;
+            border-left: 0.2rem solid #fafafa0d;
+            border-bottom: 0.2rem solid #fafafa0d;
+            overflow-y: hidden;
+            .content-section{
+                transition: all 400ms ease;
+                overflow-y: scroll;
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                &:hover{
+                    transform: translateY(-18rem);
+                    transition: 500ms ease;
+                    overflow-y: hidden;
+                }
+            }
+        }
+        &-calculator{
+            max-height: 18.2rem;
+            grid-area: calculator-content;
+            border-right: 0.2rem solid #fafafa0d;
+            border-bottom: 0.2rem solid #fafafa0d;
+            overflow-y: hidden;
+            .content-section{
+                transition: all 400ms ease;
+                overflow-y: scroll;
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                &:hover{
+                    transform: translateY(-18rem);
+                    transition: 500ms ease;
+                    overflow-y: hidden;
+                }
+            }
+        }
+        &-art-gallery{
+            max-height: 18.2rem;
+            grid-area: art-gallery-content;
+            border-right: 0.2rem solid #fafafa0d;
+            border-bottom: 0.2rem solid #fafafa0d;
+            border-left: 0.2rem solid #fafafa0d;
+            overflow-y: hidden;
+            .content-section{
+                transition: all 400ms ease;
+                overflow-y: scroll;
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                &:hover{
+                    transform: translateY(-18rem);
+                    transition: 500ms ease;
+                    overflow-y: hidden;
+                }
+            }
+        }
+        &-flat-finder{
+            max-height: 18.2rem;
+            grid-area: flat-finder-content;
+            border-bottom: 0.2rem solid #fafafa0d;
+            border-right: 0.2rem solid #fafafa0d;
+            overflow-y: hidden;
+            .content-section{
+                transition: all 400ms ease;
+                overflow-y: scroll;
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                &:hover{
+                    transform: translateY(-18rem);
+                    transition: 500ms ease;
+                    overflow-y: hidden;
+                }
+            }
+        }
+    }
+    .section-one{
+        height: 18rem;
+        width: auto;
+        display: flex;
+        align-items: flex-end;
+        &:hover{
+            transform: translateY(-18rem);
+        }
+    }
+    .section-two{
+        height: 18rem;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fafafa0d;
+        flex-direction: column;
+        &-buttons{
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .numbers-right{
+        width: 95%;
+        text-align: end;
+    }
+    .numbers-left{
+        width: 95%;
+        text-align: start;
+        margin-left: 0.75rem;
+    }
+    .project-title{
+        width: 50%;
+        text-align: center;
+        transform: translateY(-2rem);
+    }
+}

@@ -37,7 +37,7 @@ const Nav = () => {
     <div className={navClassName}>
         <div className='nav__links'>
             <Link className={contactClassName} to='/contact' onSelect={changeNavBar}>
-                <h6>Contact</h6>
+                <h6>Contact Me</h6>
             </Link>
             <Link className={homeClassName} to='/' onSelect={changeNavBar}>
                 <h6>Home</h6>
