@@ -3,10 +3,9 @@ import VexRobotics from '../../styles/images/vex-robotics.png';
 import QueenMary from '../../styles/images/queen-mary.png';
 import Nology from '../../styles/images/nology.png';
 
-const IntroSection = () => {
-
+const IntroSection = ({handleScroll}) => {
   return (
-      <div className='intro-section'>
+      <div className='intro-section' onScroll={handleScroll}>
         <div>
           <div className='content-section'>
             <img src={VexRobotics} alt="Vex Robotics Logo" className='vex-robotics'/>

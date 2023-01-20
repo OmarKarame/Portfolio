@@ -27,7 +27,6 @@ const InterestsSection = () => {
 
     const swipeLeft = () => {
         if (interestsHeader == 'Art'){
-            // change the header and gif and the classname of the arrowhead
             setInterestsHeader(interestsHeaders[1])
             setInterestsGif(interestsGifs[1])
             setRightGif(interestsGifs[2])

@@ -41,4 +41,20 @@
     left: -21rem;
     top: 6.5rem;
     border-radius: 50%;
+    .white-decoration-outer-ring{
+        max-height: 21rem;
+        aspect-ratio: 1.5;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        transform: translateX(7.75rem) translateY(-9.5rem) rotate(40deg);
+        .white-curve-outer-ring {
+            box-sizing: border-box;
+            height: 40rem;
+            aspect-ratio: 1;
+            border: 0.4rem solid $color-white;
+            border-radius: 50%;
+        }
+    }
 }
