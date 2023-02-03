@@ -45,3 +45,24 @@
         margin: 0rem 0.75rem;
     }
 }
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .header-home {
+        width: 100%;
+        left: 0rem;
+        color: $color-black;
+        mix-blend-mode: difference;
+        text-align: center;
+        background-color: white;
+        mix-blend-mode: normal;
+        z-index: 30;
+        h1 {
+            letter-spacing: -1.5rem;
+            margin-left: -1.5rem;
+        }
+        h6 {
+            font-weight: $font-weight-regular;
+            margin: 0rem 0.75rem;
+        }
+    }
+}

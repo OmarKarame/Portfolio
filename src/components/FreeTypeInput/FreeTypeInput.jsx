@@ -1,13 +1,14 @@
 import './FreeTypeInput.scss'
 
-const FreeTypeInput = ( { handleFreeTypeValue } ) => { 
+const FreeTypeInput = ( { handleFreeTypeValue, name } ) => { 
   return (
     <div className='free-type-input'>
         <label>Message</label>
         <textarea 
-            name="" 
+            name={name} 
             id="text-area"
             onChange={handleFreeTypeValue}
+            required
         >
         </textarea>
     </div>

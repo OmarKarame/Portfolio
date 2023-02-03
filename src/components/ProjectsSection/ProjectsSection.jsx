@@ -12,9 +12,9 @@ import CalculatorImage from '../../styles/images/calculator.jpg'
 import ArtGalleryImage from '../../styles/images/art-gallery-proj.jpg'
 import FlatFinderImage from '../../styles/images/flat-finder.jpg'
 
-const ProjectsSection = () => {
+const ProjectsSection = ({handleScroll}) => {
   return (
-    <div className='projects-section'>
+    <div className='projects-section' onScroll={handleScroll}>
         <div className='projects-components'>
             <div className='image-content-cryptocurrency'>
                 <div className='image-section'>

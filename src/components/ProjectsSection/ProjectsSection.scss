@@ -147,7 +147,7 @@
             overflow-y: hidden;
             .content-section{
                 transition: all 400ms ease;
-                overflow-y: scroll;
+                overflow-y: hidden;
                 &::-webkit-scrollbar {
                     display: none;
                 }
@@ -164,10 +164,10 @@
             border-right: 0.2rem solid #fafafa0d;
             border-left: 0.2rem solid #fafafa0d;
             border-bottom: 0.2rem solid #fafafa0d;
-            overflow-y: hidden;
+            overflow: hidden;
             .content-section{
                 transition: all 400ms ease;
-                overflow-y: scroll;
+                overflow-y: hidden;
                 &::-webkit-scrollbar {
                     display: none;
                 }
@@ -186,7 +186,7 @@
             overflow-y: hidden;
             .content-section{
                 transition: all 400ms ease;
-                overflow-y: scroll;
+                overflow-y: hidden;
                 &::-webkit-scrollbar {
                     display: none;
                 }
@@ -206,7 +206,7 @@
             overflow-y: hidden;
             .content-section{
                 transition: all 400ms ease;
-                overflow-y: scroll;
+                overflow-y: hidden;
                 &::-webkit-scrollbar {
                     display: none;
                 }
@@ -225,7 +225,7 @@
             overflow-y: hidden;
             .content-section{
                 transition: all 400ms ease;
-                overflow-y: scroll;
+                overflow-y: hidden;
                 &::-webkit-scrollbar {
                     display: none;
                 }

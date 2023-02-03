@@ -216,3 +216,106 @@
         }
     }
 }
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .background-rectangle {
+        background-color: $color-black;
+        box-shadow: 0px -6px 11px black;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        left: 0;
+        top: 55vh;
+        transition: 300ms ease;
+        z-index: 0;
+        .large-circle-home-page {
+            width: 100vw;
+            padding: 8rem;
+            border: 0.1rem solid rgb(88, 88, 88);
+            border-radius: 100%;
+            height: 100vw;
+            display: flex;
+            align-items: center;
+            border-radius: 50%;
+            top: -48.5vh;
+            align-self: center;
+            transform: translateX(21rem);
+            .inner-circle{
+                height: 60vw;
+                aspect-ratio: 1;
+                filter: blur(0.6rem);
+                background-image: linear-gradient(to right, $color-black 50%, $color-white 50%);
+                border-radius: 100%;
+                position: fixed;
+                left: 20vw;
+                top: 17vw;
+                transform: rotateZ(90deg) translateX(-0.5vh);
+            }
+            img {
+                height: 60vw;
+                aspect-ratio: 1;
+                border-radius: 100%;
+                position: fixed;
+                left: 19.4vw;
+                top: 20.5vw;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+                z-index: 5;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .page-name {
+                left: 10rem;
+                animation: fade-out-decoration 800ms;
+                animation-timing-function: ease-in-out;
+                font-size: 0rem;
+                h2 span {
+                    height: 15.5rem;
+                    width: 0.5rem;
+                    top: 5rem;
+                    left: 24rem;
+                    position: absolute;
+                    transform-origin: bottom center;
+                    color: $color-black;
+                }
+                .char1 { 
+                    transform: rotate(65deg); 
+                }
+                .char2 { transform: rotate(75deg); }
+                .char3 { transform: rotate(86deg); }
+                .char4 { transform: rotate(92deg); }
+                .char5 { transform: rotate(98deg); }
+                .char6 { transform: rotate(100deg); }
+                .char7 { transform: rotate(16deg); }
+                .char8 { transform: rotate(118deg); }
+            }
+            .rotating-decoration{
+                .black-decoration{
+                    
+                    .black-curve {
+                        border: 0.4rem solid transparent;
+                    }
+                }
+                .white-decoration{
+                    .white-curve {
+                        border: 0.4rem solid transparent;
+                    }
+                }
+            }
+            .decoration{
+                .black-decoration{
+                    .black-curve {
+                        border: 0.4rem solid transparent;
+                    }
+                }
+                .white-decoration{
+                    .white-curve {
+                        border: 0.4rem solid transparent;
+                    }
+                }
+            }
+        }
+    }
+}

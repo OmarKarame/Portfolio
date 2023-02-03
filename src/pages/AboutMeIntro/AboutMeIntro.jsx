@@ -20,7 +20,6 @@ const AboutMeIntro = () => {
         /> 
         <IntroSection 
           handleScroll = {handleScroll}
-          className='intro-section'
         />
     </div>
   )

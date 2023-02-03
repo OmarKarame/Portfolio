@@ -1,20 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.1617d9ce.css",
-    "main.js": "/static/js/main.22ad265d.js",
+    "main.css": "/static/css/main.91b30d35.css",
+    "main.js": "/static/js/main.d6ca83b7.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/football.gif": "/static/media/football.a99a9c530645ece1f874.gif",
+    "static/media/gaming.gif": "/static/media/gaming.e653a521eec35d374fa7.gif",
+    "static/media/flat-finder.gif": "/static/media/flat-finder.d357052cfd08039879b6.gif",
+    "static/media/cryptocurrency.gif": "/static/media/cryptocurrency.ee998e6526536d19d2da.gif",
+    "static/media/saturn.gif": "/static/media/saturn.0437bafa06eefd797a35.gif",
+    "static/media/weather.gif": "/static/media/weather.fa4b2da8689ad6abec2f.gif",
+    "static/media/art.gif": "/static/media/art.d7e107fe7ce8f1fd43ca.gif",
+    "static/media/art-gallery-proj.gif": "/static/media/art-gallery-proj.c6c8b8d058e01489a053.gif",
+    "static/media/hand.png": "/static/media/hand.84914733e9ffeb2e1be0.png",
+    "static/media/calculator.gif": "/static/media/calculator.30b97a625e05aa9aac73.gif",
+    "static/media/flat-finder.jpg": "/static/media/flat-finder.3fa6683d9e3ca415ae48.jpg",
+    "static/media/art-gallery-proj.jpg": "/static/media/art-gallery-proj.8a428d1b0f45a1557621.jpg",
+    "static/media/cryptocurrency.jpg": "/static/media/cryptocurrency.6d5f122f612cbf372771.jpg",
+    "static/media/origami.gif": "/static/media/origami.05a5ded82b805b40bd7d.gif",
     "static/media/omar.png": "/static/media/omar.59e187b01086ac80b493.png",
+    "static/media/weather.jpg": "/static/media/weather.42e431916a5a275cd6c4.jpg",
     "static/media/queen-mary.png": "/static/media/queen-mary.091622bda2380a62b436.png",
+    "static/media/calculator.jpg": "/static/media/calculator.1ba06e22a4743f7a8009.jpg",
     "static/media/nology.png": "/static/media/nology.1e4612b8f72f706b8d49.png",
     "static/media/vex-robotics.png": "/static/media/vex-robotics.31448a160ee37c2486d2.png",
+    "static/media/podcasts.gif": "/static/media/podcasts.b7ef38aff091ed7c0b00.gif",
+    "static/media/arrowhead.PNG": "/static/media/arrowhead.70d9446ac82cffacf0d4.PNG",
     "static/media/Ailerons-Typeface.otf": "/static/media/Ailerons-Typeface.29602053d4de24fcf29c.otf",
     "index.html": "/index.html",
-    "main.1617d9ce.css.map": "/static/css/main.1617d9ce.css.map",
-    "main.22ad265d.js.map": "/static/js/main.22ad265d.js.map",
+    "main.91b30d35.css.map": "/static/css/main.91b30d35.css.map",
+    "main.d6ca83b7.js.map": "/static/js/main.d6ca83b7.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1617d9ce.css",
-    "static/js/main.22ad265d.js"
+    "static/css/main.91b30d35.css",
+    "static/js/main.d6ca83b7.js"
   ]
 }

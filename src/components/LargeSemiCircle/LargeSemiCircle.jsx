@@ -6,7 +6,7 @@ const LargeSemiCircle = ({scrollPercentage}) => {
     transform: `rotate(${scrollPercentage/14.5}deg)`
   }
   return (
-    <>
+    <div className='large-semi-circle'>
         <div className='semi-circle-outer-ring' style={rotateWhiteDecoration}>
             <div className='white-decoration-outer-ring'>
               <div className='white-curve-outer-ring'></div>
@@ -16,7 +16,7 @@ const LargeSemiCircle = ({scrollPercentage}) => {
           <div className='inner-semi-circle'>
           </div>  
         </Link>
-    </>
+    </div>
   )
 }
 
