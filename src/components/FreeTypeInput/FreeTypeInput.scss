@@ -29,4 +29,32 @@
           }
     }
 }
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .free-type-input{
+        label {
+            color: $color-black;
+            font-size: $font-size-small;
+            margin-left: 0.5rem;
+            font-weight: 800;
+            mix-blend-mode: difference;
+        }
     
+        #text-area {
+            border: 0.25rem solid $color-black;
+            border-radius: 0.8rem;
+            height: 10rem;
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 0.5rem;
+            margin-top: 0.2rem;
+            padding: 0.5rem;
+            line-height: 1.2rem;
+            font-size: $font-size-small;
+            &:focus {
+                border: 0.25rem solid $color-orange;
+                outline: none;
+              }
+        }
+    }
+}

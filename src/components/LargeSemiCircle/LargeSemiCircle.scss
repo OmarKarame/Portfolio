@@ -58,83 +58,38 @@
     }
 }
 
-@media only screen and (max-width: $tablet-breakpoint) {
-    .large-semi-circle{
-        width: 100%;
-        .inner-semi-circle{
-            position: fixed;
-            width: 13.81rem;
-            aspect-ratio: 1;
-            filter: blur(0.6rem);
-            background-image: linear-gradient(to bottom, transparent 50%, $color-white 50%);
-            border-radius: 100%;
-            z-index: 4;
-            top: -8rem;
-            left: 30.5%;
-            &:hover{
-                width: 22.81rem;
-                aspect-ratio: 1;
-                filter: blur(0.6rem);
-                background-image: linear-gradient(to right, transparent 50%, $color-white 50%);
-                border-radius: 100%;
-                z-index: 4;
-                left: -12rem;
-                top: 15rem;
-                cursor: pointer;
-            }
-        }
-        
-        .semi-circle-outer-ring {
-            width: 40rem;
-            padding: 8rem;
-            border: 0.1rem solid rgb(88, 88, 88);
-            border-radius: 100%;
-            aspect-ratio: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-            left: -21rem;
-            top: 6.5rem;
-            border-radius: 50%;
-            .white-decoration-outer-ring{
-                max-height: 21rem;
-                aspect-ratio: 1.5;
-                box-sizing: border-box;
-                display: flex;
-                justify-content: center;
-                overflow: hidden;
-                transform: translateX(7.75rem) translateY(-9.5rem) rotate(40deg);
-                .white-curve-outer-ring {
-                    box-sizing: border-box;
-                    height: 40rem;
-                    aspect-ratio: 1;
-                    border: 0.4rem solid $color-white;
-                    border-radius: 50%;
-                }
-            }
-        }
-    }
-    
-  }
-
   @media only screen and (max-width: $mobile-breakpoint) {
     .large-semi-circle{
         width: 100%;
         .inner-semi-circle{
             position: fixed;
-            width: 9.81rem;
+            width: 40vw;
             aspect-ratio: 1;
             filter: blur(0.6rem);
             background-image: linear-gradient(to bottom, transparent 50%, $color-white 50%);
             border-radius: 100%;
             z-index: 4;
-            top: -6rem;
-            left: 25.5%;
+            top: -5.5rem;
+            left: 30.5vw;
+            align-self: center;
+            &:hover{
+                position: fixed;
+                width: 9.81rem;
+                aspect-ratio: 1;
+                filter: blur(0.6rem);
+                background-image: linear-gradient(to bottom, transparent 50%, $color-white 50%);
+                border-radius: 100%;
+                z-index: 4;
+                top: -6rem;
+                left: 28.5vw;
+            }
         }
         
         .semi-circle-outer-ring {
-            width: 40rem;
+            min-width: none;
+            width: 100vw;
+            height: 100vw;
+            max-height: 25rem;
             padding: 8rem;
             border: 0.1rem solid rgb(88, 88, 88);
             border-radius: 100%;
@@ -143,22 +98,25 @@
             justify-content: center;
             align-items: center;
             position: fixed;
-            left: -21rem;
-            top: 6.5rem;
+            left: 0rem;
+            top: -12.5rem;
             border-radius: 50%;
+            transform: rotateZ(450deg);
+            z-index: 10;
             .white-decoration-outer-ring{
-                max-height: 21rem;
+                max-height: 100vw;
+                width: 100vw;
                 aspect-ratio: 1.5;
                 box-sizing: border-box;
                 display: flex;
                 justify-content: center;
                 overflow: hidden;
-                transform: translateX(7.75rem) translateY(-9.5rem) rotate(40deg);
+                transform: translateX(13vh) translateY(15vh) rotateZ(140deg);
                 .white-curve-outer-ring {
                     box-sizing: border-box;
                     height: 40rem;
                     aspect-ratio: 1;
-                    border: 0.4rem solid $color-white;
+                    border: 0.3rem solid $color-white;
                     border-radius: 50%;
                 }
             }

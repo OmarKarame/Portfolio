@@ -13,6 +13,21 @@ import ArtGalleryImage from '../../styles/images/art-gallery-proj.jpg'
 import FlatFinderImage from '../../styles/images/flat-finder.jpg'
 
 const ProjectsSection = ({handleScroll}) => {
+    const linkToCryptoProject = () => {
+        window.open("https://github.com/OmarKarame/crypto-currency-api", '_blank');
+    }
+    const linkToWeatherApp = () => {
+        window.open("https://github.com/OmarKarame/weather-app", '_blank');
+    }
+    const linkToCalculator = () => {
+        window.open("https://github.com/OmarKarame/JS-Calculator", '_blank');
+    }
+    const linkToArtGallery = () => {
+        window.open("https://github.com/OmarKarame/Digital-Art-Gallery-Full-Stack-", '_blank');
+    }
+    const linkToFlatFinder = () => {
+        window.open("https://github.com/hamima27/The-Flat-Finder", '_blank');
+    }
   return (
     <div className='projects-section' onScroll={handleScroll}>
         <div className='projects-components'>
@@ -32,6 +47,7 @@ const ProjectsSection = ({handleScroll}) => {
                         <div className='section-two-buttons'>
                             <WhiteButton 
                                 buttonText={"Code"}
+                                handleButtonClick ={linkToCryptoProject}
                             />
                             <OrangeButton 
                                 buttonText={"Download"}
@@ -57,6 +73,7 @@ const ProjectsSection = ({handleScroll}) => {
                         <div className='section-two-buttons'>
                             <WhiteButton 
                                 buttonText={"Code"}
+                                handleButtonClick ={linkToWeatherApp}
                             />
                             <OrangeButton 
                                 buttonText={"Website"}
@@ -82,6 +99,7 @@ const ProjectsSection = ({handleScroll}) => {
                         <div className='section-two-buttons'>
                             <WhiteButton 
                                 buttonText={"Code"}
+                                handleButtonClick ={linkToCalculator}
                             />
                             <OrangeButton 
                                 buttonText={"Download"}
@@ -107,6 +125,7 @@ const ProjectsSection = ({handleScroll}) => {
                         <div className='section-two-buttons'>
                             <WhiteButton 
                                 buttonText={"Code"}
+                                handleButtonClick ={linkToArtGallery}
                             />
                             <OrangeButton 
                                 buttonText={"Download"}
@@ -132,6 +151,7 @@ const ProjectsSection = ({handleScroll}) => {
                         <div className='section-two-buttons'>
                             <WhiteButton 
                                 buttonText={"Code"}
+                                handleButtonClick ={linkToFlatFinder}
                             />
                             <OrangeButton 
                                 buttonText={"Website"}

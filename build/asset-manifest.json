@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.91b30d35.css",
+    "main.css": "/static/css/main.3b1da236.css",
     "main.js": "/static/js/main.d6ca83b7.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/football.gif": "/static/media/football.a99a9c530645ece1f874.gif",
@@ -27,12 +27,12 @@
     "static/media/arrowhead.PNG": "/static/media/arrowhead.70d9446ac82cffacf0d4.PNG",
     "static/media/Ailerons-Typeface.otf": "/static/media/Ailerons-Typeface.29602053d4de24fcf29c.otf",
     "index.html": "/index.html",
-    "main.91b30d35.css.map": "/static/css/main.91b30d35.css.map",
+    "main.3b1da236.css.map": "/static/css/main.3b1da236.css.map",
     "main.d6ca83b7.js.map": "/static/js/main.d6ca83b7.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91b30d35.css",
+    "static/css/main.3b1da236.css",
     "static/js/main.d6ca83b7.js"
   ]
 }
