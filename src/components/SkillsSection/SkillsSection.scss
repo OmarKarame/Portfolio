@@ -2,7 +2,7 @@
 @use "../../styles/_reset.scss" as *;
 @use "../../styles/_typography.scss" as *;
 
-.interests-section{
+.skills-section{
     top: 5rem;
     width: 50%;
     height: 92.5vh;
@@ -94,132 +94,94 @@
             cursor: pointer;
         }
     }
-    .Art{
-        height: 340px;
-        aspect-ratio: auto;
+    .HTML {
+        max-height: 15rem;
         margin-right: -15rem;
         margin-left:-15rem;
         margin-bottom: 1rem;
-        &.left-gif{
-            height: 90px;
-            aspect-ratio: auto;
-            transform: translateX(-17.5rem) translateY(0.75rem);
-            opacity: 0.3;
-        }
-        &.left-gif-start{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(-17rem);
-            opacity: 0;
-        }
     }
-    .Sports{
-        height: 320px;
-        aspect-ratio: auto;
-        margin-bottom: 1.85rem;
+    .CSS {
+        max-height: 15rem;
         margin-right: -15rem;
         margin-left:-15rem;
-        transform: translateX(-2.25rem);
-        &.left-gif{
-            height: 90px;
-            aspect-ratio: auto;
-            transform: translateX(-17rem) translateY(0.85rem);
-            opacity: 0.3;
-        }
-        &.right-gif{
-            height: 90px;
-            aspect-ratio: auto;
-            transform: translateX(17rem) translateY(0.75rem);
-            opacity: 0.2;
-        }
+        margin-bottom: 1rem;
     }
-    .Space{
-        margin-top: -3rem;
-        margin-bottom: -3.25rem;
-        margin-right: -16.75rem;
-        margin-left:-16.5rem;
-        height: 450px;
-        transform: translateX(-1.25rem);
-        aspect-ratio: auto;
-        &.left-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(-16.5rem);
-            opacity: 0.2;
-        }
-        &.right-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(15rem) translateY(0rem);
-            opacity: 0.2;
-        }
+    .SASS {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
     }
-    .Podcasts{
-        height: 350px;
-        margin-right: -16rem;
-        margin-left:-16rem;
-        aspect-ratio: auto;
-        transform: translateX(1.25rem);
-        &.left-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(-16rem);
-            opacity: 0.2;
-        }
-        &.right-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(16rem) translateY(-0.4rem);
-            opacity: 0.2;
-        }
+    .TypeScript {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
     }
-    .Origami{
-        height: 350px;
-        margin-right: -16rem;
-        margin-left:-16rem;
-        aspect-ratio: auto;
-        transform: translateX(1.25rem);
-        &.left-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(-17rem);
-            opacity: 0.2;
-        }
-        &.right-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(17.5rem) translateY(-0.35rem);
-            opacity: 0.2;
-        }
+    .JavaScript {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
     }
-    .Gaming{
-        height: 350px;
-        margin-right: -16rem;
-        margin-left:-16rem;
-        aspect-ratio: auto;
-        &.left-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(-17rem);
-            opacity: 0.2;
-        }
-        &.right-gif{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(17rem) translateY(-0.25rem);
-            opacity: 0.2;
-        }
-        &.right-gif-end{
-            height: 100px;
-            aspect-ratio: auto;
-            transform: translateX(17rem) translateY(0rem);
-            opacity: 0;
-        }
+    .React {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
     }
-    &__hand{
-        height: 350px;
+    .Java {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Python {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .visual-paradigm {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .MySQL {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Springboot {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Hadoop {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Procreate {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Figma {
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    &__pedestal{
+        height: 550px;
         aspect-ratio: auto;
-        transform: rotateZ(170deg) translateY(170px) translateX(-25px);
+        transform: translateY(-100px) translateX(-10px);
         z-index: 0;
     }
 }

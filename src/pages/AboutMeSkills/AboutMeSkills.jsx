@@ -12,7 +12,7 @@ const AboutMeSkills = () => {
           secondaryHeader={"This is an intro into my journey to become a Software Engineer and Technology Consultant."}
           scrollPercentage = {scrollPercentage}
         /> 
-        {/* <SkillsSection /> */}
+        <SkillsSection />
     </div>
   )
 }

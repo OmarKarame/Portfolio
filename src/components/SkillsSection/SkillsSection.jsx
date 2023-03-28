@@ -18,19 +18,185 @@ import Mysql from '../../styles/images/mysql.png';
 import Arrowhead from '../../styles/images/arrowhead.PNG';
 
 const SkillsSection = () => {
+
+  const skillsHeaders = ['HTML', 'CSS', 'SASS', 'TypeScript', 'JavaScript', 'React', 'Java', 'Python', 'Visual Paradigm', 'MySQL', 'Springboot', 'Hadoop', 'Procreate', 'Figma'];
+  const skillsGifs = [Html, Css, Sass, Typescript, Javascript, ReactLogo, Java, Python, Paradigm, Mysql, Springboot, Hadoop, Procreate, Figma];
+  const [skillsHeader, setSkillsHeader] = useState(skillsHeaders[0]);
+  const [skillsGif, setSkillsGif] = useState(skillsGifs[0]);
+
+  const [skillsGifClassName, setSkillsGifClassName] = useState(skillsHeaders[0]);
+
+  const [leftArrowheadClassName, setLeftArrowheadClassName] = useState('left-arrowhead-faded');
+  const [rightArrowheadClassName, setRightArrowheadClassName] = useState('right-arrowhead');
+
+  const swipeLeft = () => {
+    if (skillsHeader == 'HTML'){
+        setSkillsHeader(skillsHeaders[1]);
+        setSkillsGif(skillsGifs[1]);
+        setLeftArrowheadClassName('left-arrowhead');
+        setSkillsGifClassName(skillsHeaders[1]);
+    }
+
+    else if (skillsHeader == 'CSS'){
+        setSkillsHeader(skillsHeaders[2])
+        setSkillsGif(skillsGifs[2])
+        setSkillsGifClassName(skillsHeaders[2])
+    }
+
+    else if (skillsHeader == 'SASS'){
+        setSkillsHeader(skillsHeaders[3])
+        setSkillsGif(skillsGifs[3])
+        setSkillsGifClassName(skillsHeaders[3])
+    }
+
+    else if (skillsHeader == 'TypeScript'){
+        setSkillsHeader(skillsHeaders[4])
+        setSkillsGif(skillsGifs[4])
+        setSkillsGifClassName(skillsHeaders[4])
+    }
+
+    else if (skillsHeader == 'JavaScript'){
+        setSkillsHeader(skillsHeaders[5])
+        setSkillsGif(skillsGifs[5])
+        setSkillsGifClassName(skillsHeaders[5])
+    }
+
+    else if (skillsHeader == 'React'){
+        setSkillsHeader(skillsHeaders[6])
+        setSkillsGif(skillsGifs[6])
+        setSkillsGifClassName(skillsHeaders[6])
+    }
+
+    else if (skillsHeader == 'Java'){
+        setSkillsHeader(skillsHeaders[7])
+        setSkillsGif(skillsGifs[7])
+        setSkillsGifClassName(skillsHeaders[7])
+    }
+
+    else if (skillsHeader == 'Python'){
+        setSkillsHeader(skillsHeaders[8])
+        setSkillsGif(skillsGifs[8])
+        setSkillsGifClassName("visual-paradigm")
+    }
+
+    else if (skillsHeader == 'Visual Paradigm'){
+        setSkillsHeader(skillsHeaders[9])
+        setSkillsGif(skillsGifs[9])
+        setSkillsGifClassName(skillsHeaders[9])
+    }
+
+    else if (skillsHeader == 'MySQL'){
+        setSkillsHeader(skillsHeaders[10])
+        setSkillsGif(skillsGifs[10])
+        setSkillsGifClassName(skillsHeaders[10])
+    }
+
+    else if (skillsHeader == 'Springboot'){
+        setSkillsHeader(skillsHeaders[11])
+        setSkillsGif(skillsGifs[11])
+        setSkillsGifClassName(skillsHeaders[11])
+    }
+
+    else if (skillsHeader == 'Hadoop'){
+        setSkillsHeader(skillsHeaders[12])
+        setSkillsGif(skillsGifs[12])
+        setSkillsGifClassName(skillsHeaders[12])
+    }
+
+    else if (skillsHeader == 'Procreate'){
+        setSkillsHeader(skillsHeaders[13])
+        setSkillsGif(skillsGifs[13])
+        setSkillsGifClassName(skillsHeaders[13])
+        setRightArrowheadClassName('right-arrowhead-faded')
+    }
+}
+
+const swipeRight = () => {
+    if (skillsHeader == 'Figma'){
+        setSkillsHeader(skillsHeaders[12])
+        setSkillsGif(skillsGifs[12])
+        setSkillsGifClassName(skillsHeaders[12])
+        setRightArrowheadClassName('right-arrowhead')
+    }
+    else if (skillsHeader == 'Procreate'){
+        setSkillsHeader(skillsHeaders[11])
+        setSkillsGif(skillsGifs[11])
+        setSkillsGifClassName(skillsHeaders[11])
+    }
+    else if (skillsHeader == 'Hadoop'){
+        setSkillsHeader(skillsHeaders[10])
+        setSkillsGif(skillsGifs[10])
+        setSkillsGifClassName(skillsHeaders[10])
+    }
+    else if (skillsHeader == 'Springboot'){
+        setSkillsHeader(skillsHeaders[9])
+        setSkillsGif(skillsGifs[9])
+        setSkillsGifClassName(skillsHeaders[9])
+    }
+    else if (skillsHeader == 'MySQL'){
+        setSkillsHeader(skillsHeaders[8])
+        setSkillsGif(skillsGifs[8])
+        setSkillsGifClassName("visual-paradigm")
+    }
+    else if (skillsHeader == 'Visual Paradigm'){
+        setSkillsHeader(skillsHeaders[7])
+        setSkillsGif(skillsGifs[7])
+        setSkillsGifClassName(skillsHeaders[7])
+    }
+    else if (skillsHeader == 'Python'){
+        setSkillsHeader(skillsHeaders[6])
+        setSkillsGif(skillsGifs[6])
+        setSkillsGifClassName(skillsHeaders[6])
+    }
+    else if (skillsHeader == 'Java'){
+        setSkillsHeader(skillsHeaders[5])
+        setSkillsGif(skillsGifs[5])
+        setSkillsGifClassName(skillsHeaders[5])
+    }
+    else if (skillsHeader == 'React'){
+        setSkillsHeader(skillsHeaders[4])
+        setSkillsGif(skillsGifs[4])
+        setSkillsGifClassName(skillsHeaders[4])
+    }
+    else if (skillsHeader == 'JavaScript'){
+        setSkillsHeader(skillsHeaders[3])
+        setSkillsGif(skillsGifs[3])
+        setSkillsGifClassName(skillsHeaders[3])
+    }
+    else if (skillsHeader == 'TypeScript'){
+        setSkillsHeader(skillsHeaders[2])
+        setSkillsGif(skillsGifs[2])
+        setSkillsGifClassName(skillsHeaders[2])
+    }
+    else if (skillsHeader == 'SASS'){
+        setSkillsHeader(skillsHeaders[1])
+        setSkillsGif(skillsGifs[1])
+        setSkillsGifClassName(skillsHeaders[1])
+    }
+    else if (skillsHeader == 'CSS'){
+        setSkillsHeader(skillsHeaders[0])
+        setSkillsGif(skillsGifs[0])
+        setSkillsGifClassName(skillsHeaders[0])
+        setLeftArrowheadClassName('left-arrowhead-faded');
+    }
+    else if (skillsHeader == 'HTML'){
+        setSkillsHeader(skillsHeaders[0]);
+        setSkillsGif(skillsGifs[0]);
+        setSkillsGifClassName(skillsHeaders[0]);
+    }
+}
+
+
   return (
     <div className='skills-section'>
-        {/* <h2 className="skills-section__header">{interestsHeader}</h2>
+        <h3 className="skills-section__header">{skillsHeader}</h3>
         <div className="skills-section__gifs-carousel">
             <img src={Arrowhead} alt="left arrowhead" className={leftArrowheadClassName} onClick={swipeRight}/>
-            <img src={leftGif} alt="invisible image" className={leftGifClassName}/>
-            <img src={interestsGif} alt={interestsHeader} className={gifClassName}/>
-            <img src={rightGif} alt="invisible image" className={rightGifClassName}/>
+            <img src={skillsGif} alt={skillsHeader} className={skillsGifClassName}/>
             <img src={Arrowhead} alt="right arrowhead" className={rightArrowheadClassName} onClick={swipeLeft}/>
         </div>
-        <img src={Hand} alt="hand reaching out" className="interests-section__hand"/> */}
+        <img src={Pedestal} alt="pedestal" className="skills-section__pedestal"/>
     </div>
-    // create similar blocks to interests section
   )
 }
 

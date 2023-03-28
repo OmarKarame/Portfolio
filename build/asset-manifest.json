@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b1da236.css",
-    "main.js": "/static/js/main.d6ca83b7.js",
+    "main.css": "/static/css/main.23c2e519.css",
+    "main.js": "/static/js/main.0ca96a8a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/football.gif": "/static/media/football.a99a9c530645ece1f874.gif",
     "static/media/gaming.gif": "/static/media/gaming.e653a521eec35d374fa7.gif",
@@ -16,23 +16,30 @@
     "static/media/flat-finder.jpg": "/static/media/flat-finder.3fa6683d9e3ca415ae48.jpg",
     "static/media/art-gallery-proj.jpg": "/static/media/art-gallery-proj.8a428d1b0f45a1557621.jpg",
     "static/media/cryptocurrency.jpg": "/static/media/cryptocurrency.6d5f122f612cbf372771.jpg",
+    "static/media/pedestal.png": "/static/media/pedestal.ec9ce53941aded6bb78e.png",
     "static/media/origami.gif": "/static/media/origami.05a5ded82b805b40bd7d.gif",
     "static/media/omar.png": "/static/media/omar.59e187b01086ac80b493.png",
     "static/media/weather.jpg": "/static/media/weather.42e431916a5a275cd6c4.jpg",
+    "static/media/java.png": "/static/media/java.54c6b3065b797261f162.png",
     "static/media/queen-mary.png": "/static/media/queen-mary.091622bda2380a62b436.png",
     "static/media/calculator.jpg": "/static/media/calculator.1ba06e22a4743f7a8009.jpg",
     "static/media/nology.png": "/static/media/nology.1e4612b8f72f706b8d49.png",
+    "static/media/hadoop.png": "/static/media/hadoop.b3aa8d951b962e6d8d94.png",
     "static/media/vex-robotics.png": "/static/media/vex-robotics.31448a160ee37c2486d2.png",
     "static/media/podcasts.gif": "/static/media/podcasts.b7ef38aff091ed7c0b00.gif",
+    "static/media/paradigm.png": "/static/media/paradigm.6b2eeaaf4ee487cf9aab.png",
+    "static/media/python.png": "/static/media/python.9d93958732c4cdbc6ddb.png",
     "static/media/arrowhead.PNG": "/static/media/arrowhead.70d9446ac82cffacf0d4.PNG",
+    "static/media/figma.png": "/static/media/figma.6c8e76666c9b90e506b5.png",
+    "static/media/procreate.png": "/static/media/procreate.cafefde0b6e11e8ab5eb.png",
     "static/media/Ailerons-Typeface.otf": "/static/media/Ailerons-Typeface.29602053d4de24fcf29c.otf",
     "index.html": "/index.html",
-    "main.3b1da236.css.map": "/static/css/main.3b1da236.css.map",
-    "main.d6ca83b7.js.map": "/static/js/main.d6ca83b7.js.map",
+    "main.23c2e519.css.map": "/static/css/main.23c2e519.css.map",
+    "main.0ca96a8a.js.map": "/static/js/main.0ca96a8a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b1da236.css",
-    "static/js/main.d6ca83b7.js"
+    "static/css/main.23c2e519.css",
+    "static/js/main.0ca96a8a.js"
   ]
 }

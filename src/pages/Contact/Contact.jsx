@@ -34,7 +34,6 @@ const Contact = () => {
                     />
                     <div className='button-section'>
                         <div className='buttons'>
-                            <WhiteButton buttonText={"Clear"} />
                             <OrangeButton buttonText={"Submit"} type={"submit"} />
                         </div>
                     </div>
