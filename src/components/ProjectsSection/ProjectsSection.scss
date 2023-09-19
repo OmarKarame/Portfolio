@@ -13,7 +13,7 @@
     align-items: center;
     color: $color-white;
     overflow-y: scroll;
-    -ms-overflow-style: none; 
+    -ms-overflow-style: none;
     scrollbar-width: none;
     justify-content: space-between;
     &::-webkit-scrollbar {
@@ -22,9 +22,9 @@
     .projects-components{
         width: 40rem;
         display: grid;
-        grid-template-areas: 
+        grid-template-areas:
             'cryptocurrency-image cryptocurrency-content'
-            'weather-content weather-image'
+            'cte-content cte-img'
             'calculator-image calculator-content'
             'art-gallery-content art-gallery-image'
             'flat-finder-image flat-finder-content';
@@ -53,19 +53,20 @@
                 }
             }
         }
-        &-weather{
-            grid-area: weather-image;
+        &-cte{
+            grid-area: cte-img;
             border-bottom: 0.2rem solid #fafafa0d;
             border-right: 0.2rem solid #fafafa0d;
             height: 18.2rem;
             overflow: hidden;
             .image-section{
-                .weather-image{
-                    width: 20rem;
+                .cte-img{
+                    margin-left: 0.8rem;
+                    width: 18rem;
                     height: 18rem;
                 }
-                .weather-gif{
-                    width: 20rem;
+                .cte-img{
+                    width: 18rem;
                     height: 18rem;
                 }
                 &:hover{
@@ -158,9 +159,9 @@
                 }
             }
         }
-        &-weather{
+        &-cte{
             max-height: 18.2rem;
-            grid-area: weather-content;
+            grid-area: cte-content;
             border-right: 0.2rem solid #fafafa0d;
             border-left: 0.2rem solid #fafafa0d;
             border-bottom: 0.2rem solid #fafafa0d;

@@ -8,13 +8,13 @@ const Home = () => {
   return (
     <div className='home'>
         <Link to={"/contact"}>
-            <SmallCircle 
+            <SmallCircle
                 smallCircleClassName={"small-circle-home"}
             />
         </Link>
-        <Header 
+        <Header
             mainHeader='Hello'
-            secondaryHeader="I'm Omar Karame, a Junior Technology Consultant in London, England."
+            secondaryHeader="I'm Omar Karame, a Junior Data Scientist in London, England."
             headerClassName={"header-home"}
         />
         <BackgroundRectangle />

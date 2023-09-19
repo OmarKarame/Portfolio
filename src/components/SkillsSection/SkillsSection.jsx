@@ -16,11 +16,14 @@ import Java from '../../styles/images/java.png';
 import Hadoop from '../../styles/images/hadoop.png';
 import Mysql from '../../styles/images/mysql.png';
 import Arrowhead from '../../styles/images/arrowhead.PNG';
+import ScikitLearn from '../../styles/images/scikit-learn.png';
+import TensorFlow from '../../styles/images/Tensor-flow.png';
+import Docker from '../../styles/images/docker.png';
 
 const SkillsSection = () => {
 
-  const skillsHeaders = ['HTML', 'CSS', 'SASS', 'TypeScript', 'JavaScript', 'React', 'Java', 'Python', 'Visual Paradigm', 'MySQL', 'Springboot', 'Hadoop', 'Procreate', 'Figma'];
-  const skillsGifs = [Html, Css, Sass, Typescript, Javascript, ReactLogo, Java, Python, Paradigm, Mysql, Springboot, Hadoop, Procreate, Figma];
+  const skillsHeaders = ['HTML', 'CSS', 'SASS', 'TypeScript', 'JavaScript', 'React', 'Java', 'Python', 'Visual Paradigm', 'MySQL', 'Springboot', 'Hadoop', 'Docker', 'Scikit-Learn', 'Tensor Flow', 'Procreate', 'Figma'];
+  const skillsGifs = [Html, Css, Sass, Typescript, Javascript, ReactLogo, Java, Python, Paradigm, Mysql, Springboot, Hadoop, Docker, ScikitLearn, TensorFlow, Procreate, Figma];
   const [skillsHeader, setSkillsHeader] = useState(skillsHeaders[0]);
   const [skillsGif, setSkillsGif] = useState(skillsGifs[0]);
 
@@ -102,26 +105,57 @@ const SkillsSection = () => {
         setSkillsGif(skillsGifs[12])
         setSkillsGifClassName(skillsHeaders[12])
     }
-
-    else if (skillsHeader == 'Procreate'){
-        setSkillsHeader(skillsHeaders[13])
-        setSkillsGif(skillsGifs[13])
-        setSkillsGifClassName(skillsHeaders[13])
-        setRightArrowheadClassName('right-arrowhead-faded')
+    else if (skillsHeader == 'Docker'){
+      setSkillsHeader(skillsHeaders[13])
+      setSkillsGif(skillsGifs[13])
+      setSkillsGifClassName(skillsHeaders[13])
     }
+    else if (skillsHeader == 'Scikit-Learn'){
+        setSkillsHeader(skillsHeaders[14])
+        setSkillsGif(skillsGifs[14])
+        setSkillsGifClassName(skillsHeaders[14])
+        setSkillsGifClassName("Tensor-Flow")
+    }
+    else if (skillsHeader == 'Tensor Flow'){
+      setSkillsHeader(skillsHeaders[15])
+      setSkillsGif(skillsGifs[15])
+      setSkillsGifClassName(skillsHeaders[15])
+  }
+    else if (skillsHeader == 'Procreate'){
+      setSkillsHeader(skillsHeaders[16])
+      setSkillsGif(skillsGifs[16])
+      setSkillsGifClassName(skillsHeaders[16])
+      setRightArrowheadClassName('right-arrowhead-faded')
+  }
 }
 
 const swipeRight = () => {
     if (skillsHeader == 'Figma'){
-        setSkillsHeader(skillsHeaders[12])
-        setSkillsGif(skillsGifs[12])
-        setSkillsGifClassName(skillsHeaders[12])
+        setSkillsHeader(skillsHeaders[15])
+        setSkillsGif(skillsGifs[15])
+        setSkillsGifClassName(skillsHeaders[15])
         setRightArrowheadClassName('right-arrowhead')
     }
     else if (skillsHeader == 'Procreate'){
-        setSkillsHeader(skillsHeaders[11])
-        setSkillsGif(skillsGifs[11])
-        setSkillsGifClassName(skillsHeaders[11])
+        setSkillsHeader(skillsHeaders[14])
+        setSkillsGif(skillsGifs[14])
+        setSkillsGifClassName(skillsHeaders[14])
+        setSkillsGifClassName("Tensor-Flow")
+    }
+    else if (skillsHeader == 'Tensor Flow'){
+      setSkillsHeader(skillsHeaders[13])
+      setSkillsGif(skillsGifs[13])
+      setSkillsGifClassName(skillsHeaders[13])
+    }
+    else if (skillsHeader == 'Scikit-Learn'){
+      setSkillsHeader(skillsHeaders[12])
+      setSkillsGif(skillsGifs[12])
+      setSkillsGifClassName(skillsHeaders[12])
+    }
+    else if (skillsHeader == 'Docker'){
+      setSkillsHeader(skillsHeaders[11])
+      setSkillsGif(skillsGifs[11])
+      setSkillsGifClassName(skillsHeaders[11])
     }
     else if (skillsHeader == 'Hadoop'){
         setSkillsHeader(skillsHeaders[10])

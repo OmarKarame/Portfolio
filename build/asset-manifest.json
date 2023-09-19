@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.23c2e519.css",
-    "main.js": "/static/js/main.0ca96a8a.js",
+    "main.css": "/static/css/main.dcf29be5.css",
+    "main.js": "/static/js/main.5b8c56bd.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/football.gif": "/static/media/football.a99a9c530645ece1f874.gif",
     "static/media/gaming.gif": "/static/media/gaming.e653a521eec35d374fa7.gif",
@@ -12,6 +12,7 @@
     "static/media/art.gif": "/static/media/art.d7e107fe7ce8f1fd43ca.gif",
     "static/media/art-gallery-proj.gif": "/static/media/art-gallery-proj.c6c8b8d058e01489a053.gif",
     "static/media/hand.png": "/static/media/hand.84914733e9ffeb2e1be0.png",
+    "static/media/cte-logo-white.png": "/static/media/cte-logo-white.34d8b6e568e44d4b9449.png",
     "static/media/calculator.gif": "/static/media/calculator.30b97a625e05aa9aac73.gif",
     "static/media/flat-finder.jpg": "/static/media/flat-finder.3fa6683d9e3ca415ae48.jpg",
     "static/media/art-gallery-proj.jpg": "/static/media/art-gallery-proj.8a428d1b0f45a1557621.jpg",
@@ -22,7 +23,10 @@
     "static/media/weather.jpg": "/static/media/weather.42e431916a5a275cd6c4.jpg",
     "static/media/java.png": "/static/media/java.54c6b3065b797261f162.png",
     "static/media/queen-mary.png": "/static/media/queen-mary.091622bda2380a62b436.png",
+    "static/media/scikit-learn.png": "/static/media/scikit-learn.e323786f2489aa601b90.png",
+    "static/media/Tensor-flow.png": "/static/media/Tensor-flow.2e600df8bf7dc40e2886.png",
     "static/media/calculator.jpg": "/static/media/calculator.1ba06e22a4743f7a8009.jpg",
+    "static/media/docker.png": "/static/media/docker.c1404d2c9eb77e0a00a3.png",
     "static/media/nology.png": "/static/media/nology.1e4612b8f72f706b8d49.png",
     "static/media/hadoop.png": "/static/media/hadoop.b3aa8d951b962e6d8d94.png",
     "static/media/vex-robotics.png": "/static/media/vex-robotics.31448a160ee37c2486d2.png",
@@ -32,14 +36,15 @@
     "static/media/arrowhead.PNG": "/static/media/arrowhead.70d9446ac82cffacf0d4.PNG",
     "static/media/figma.png": "/static/media/figma.6c8e76666c9b90e506b5.png",
     "static/media/procreate.png": "/static/media/procreate.cafefde0b6e11e8ab5eb.png",
+    "static/media/le-wagon.png": "/static/media/le-wagon.5c418501c456d715feb2.png",
     "static/media/Ailerons-Typeface.otf": "/static/media/Ailerons-Typeface.29602053d4de24fcf29c.otf",
     "index.html": "/index.html",
-    "main.23c2e519.css.map": "/static/css/main.23c2e519.css.map",
-    "main.0ca96a8a.js.map": "/static/js/main.0ca96a8a.js.map",
+    "main.dcf29be5.css.map": "/static/css/main.dcf29be5.css.map",
+    "main.5b8c56bd.js.map": "/static/js/main.5b8c56bd.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23c2e519.css",
-    "static/js/main.0ca96a8a.js"
+    "static/css/main.dcf29be5.css",
+    "static/js/main.5b8c56bd.js"
   ]
 }

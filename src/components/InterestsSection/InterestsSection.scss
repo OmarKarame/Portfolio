@@ -35,13 +35,13 @@
             margin: 0rem 3rem;
             cursor: pointer;
         }
-        &:active{
-            transform: rotateZ(180deg);
-            height: 50px;
-            aspect-ratio: auto;
-            margin: 0rem 4rem;
-            transition: 100ms;
-        }
+        // &:active{
+        //     transform: rotateZ(180deg);
+        //     height: 50px;
+        //     aspect-ratio: auto;
+        //     margin: 0rem 4rem;
+        //     transition: 100ms;
+        // }
     }
     .left-arrowhead-faded{
         position: relative;
@@ -72,12 +72,12 @@
             margin: 0rem 3rem;
             cursor: pointer;
         }
-        &:active{
-            height: 50px;
-            aspect-ratio: auto;
-            margin: 0rem 3.68rem;
-            transition: 100ms;
-        }
+        // &:active{
+        //     height: 50px;
+        //     aspect-ratio: auto;
+        //     margin: 0rem 3.68rem;
+        //     transition: 100ms;
+        // }
     }
     .right-arrowhead-faded{
         position: relative;

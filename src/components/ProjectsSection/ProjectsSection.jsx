@@ -11,13 +11,15 @@ import WeatherImage from '../../styles/images/weather.jpg'
 import CalculatorImage from '../../styles/images/calculator.jpg'
 import ArtGalleryImage from '../../styles/images/art-gallery-proj.jpg'
 import FlatFinderImage from '../../styles/images/flat-finder.jpg'
+import CommitToExcellence from '../../styles/images/cte-logo-white.png'
+
 
 const ProjectsSection = ({handleScroll}) => {
     const linkToCryptoProject = () => {
         window.open("https://github.com/OmarKarame/crypto-currency-api", '_blank');
     }
-    const linkToWeatherApp = () => {
-        window.open("https://github.com/OmarKarame/weather-app", '_blank');
+    const linkToCTE = () => {
+        window.open("https://commit-to-excellence.web.app/", '_blank');
     }
     const linkToCalculator = () => {
         window.open("https://github.com/OmarKarame/JS-Calculator", '_blank');
@@ -27,6 +29,9 @@ const ProjectsSection = ({handleScroll}) => {
     }
     const linkToFlatFinder = () => {
         window.open("https://github.com/hamima27/The-Flat-Finder", '_blank');
+    }
+    const linkToCTECode = () => {
+        window.open("https://github.com/OmarKarame/Commit-To-Excellence-Backend", '_blank');
     }
   return (
     <div className='projects-section' onScroll={handleScroll}>
@@ -45,11 +50,11 @@ const ProjectsSection = ({handleScroll}) => {
                     <div className='section-two'>
                         <h4 className='project-title'>Cryptocurrency Price Update (Web App)</h4>
                         <div className='section-two-buttons'>
-                            <WhiteButton 
+                            <WhiteButton
                                 buttonText={"Code"}
                                 handleButtonClick ={linkToCryptoProject}
                             />
-                            <OrangeButton 
+                            <OrangeButton
                                 buttonText={"Download"}
                             />
                         </div>
@@ -57,26 +62,27 @@ const ProjectsSection = ({handleScroll}) => {
                 </div>
             </div>
 
-            <div className='image-content-weather'>
+            <div className='image-content-cte'>
                 <div className='image-section'>
-                    <img src={WeatherImage} alt="weather image" className='weather-image'/>
-                    <img src={Weather} alt="weather gif" className='weather-gif'/>
+                    <img src={CommitToExcellence} alt="commit to excellence logo" className='cte-img'/>
+                    <img src={CommitToExcellence} alt="commit to excellence logo" className='cte-img'/>
                 </div>
             </div>
-            <div className='project-content-weather'>
+            <div className='project-content-cte'>
                 <div className='content-section'>
                     <div className='section-one'>
                         <h2 className='numbers-left'>2.</h2>
                     </div>
                     <div className='section-two'>
-                        <h4 className='project-title'>Live Weather Forecast (Web App)</h4>
+                        <h4 className='project-title'>AI Generated Commit Messages (CLI Commands)</h4>
                         <div className='section-two-buttons'>
-                            <WhiteButton 
+                            <WhiteButton
                                 buttonText={"Code"}
-                                handleButtonClick ={linkToWeatherApp}
+                                handleButtonClick ={linkToCTECode}
                             />
-                            <OrangeButton 
+                            <OrangeButton
                                 buttonText={"Website"}
+                                handleButtonClick ={linkToCTE}
                             />
                         </div>
                     </div>
@@ -97,11 +103,11 @@ const ProjectsSection = ({handleScroll}) => {
                     <div className='section-two'>
                         <h4 className='project-title'>Calculator (Locally Hosted)</h4>
                         <div className='section-two-buttons'>
-                            <WhiteButton 
+                            <WhiteButton
                                 buttonText={"Code"}
                                 handleButtonClick ={linkToCalculator}
                             />
-                            <OrangeButton 
+                            <OrangeButton
                                 buttonText={"Download"}
                             />
                         </div>
@@ -113,7 +119,7 @@ const ProjectsSection = ({handleScroll}) => {
                 <div className='image-section'>
                     <img src={ArtGalleryImage} alt="art gallery image" className='art-gallery-image'/>
                     <img src={ArtGallery} alt="art gallery gif" className='art-gallery-gif'/>
-                </div> 
+                </div>
             </div>
             <div className='project-content-art-gallery'>
                 <div className='content-section'>
@@ -123,11 +129,11 @@ const ProjectsSection = ({handleScroll}) => {
                     <div className='section-two'>
                         <h4 className='project-title'>Art Gallery (Full-stack)</h4>
                         <div className='section-two-buttons'>
-                            <WhiteButton 
+                            <WhiteButton
                                 buttonText={"Code"}
                                 handleButtonClick ={linkToArtGallery}
                             />
-                            <OrangeButton 
+                            <OrangeButton
                                 buttonText={"Download"}
                             />
                         </div>
@@ -149,11 +155,11 @@ const ProjectsSection = ({handleScroll}) => {
                     <div className='section-two'>
                         <h4 className='project-title'>Flat Finder (Web App)</h4>
                         <div className='section-two-buttons'>
-                            <WhiteButton 
+                            <WhiteButton
                                 buttonText={"Code"}
                                 handleButtonClick ={linkToFlatFinder}
                             />
-                            <OrangeButton 
+                            <OrangeButton
                                 buttonText={"Website"}
                             />
                         </div>

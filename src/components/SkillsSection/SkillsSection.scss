@@ -35,13 +35,13 @@
             margin: 0rem 3rem;
             cursor: pointer;
         }
-        &:active{
-            transform: rotateZ(180deg);
-            height: 50px;
-            aspect-ratio: auto;
-            margin: 0rem 4rem;
-            transition: 100ms;
-        }
+        // &:active{
+        //     transform: rotateZ(180deg);
+        //     height: 50px;
+        //     aspect-ratio: auto;
+        //     margin: 0rem 4rem;
+        //     transition: 100ms;
+        // }
     }
     .left-arrowhead-faded{
         position: relative;
@@ -51,14 +51,14 @@
         margin: 0rem 3rem;
         opacity: 0.3;
         z-index: 10;
-        &:hover{
-            transform: rotateZ(180deg);
-            height: 70px;
-            aspect-ratio: auto;
-            margin: 0rem 3rem;
-            opacity: 0.3;
-            cursor: pointer;
-        }
+        // &:hover{
+        //     transform: rotateZ(180deg);
+        //     height: 70px;
+        //     aspect-ratio: auto;
+        //     margin: 0rem 3rem;
+        //     opacity: 0.3;
+        //     cursor: pointer;
+        // }
     }
     .right-arrowhead{
         position: relative;
@@ -72,12 +72,12 @@
             margin: 0rem 3rem;
             cursor: pointer;
         }
-        &:active{
-            height: 50px;
-            aspect-ratio: auto;
-            margin: 0rem 3.68rem;
-            transition: 100ms;
-        }
+        // &:active{
+        //     height: 50px;
+        //     aspect-ratio: auto;
+        //     margin: 0rem 3.68rem;
+        //     transition: 100ms;
+        // }
     }
     .right-arrowhead-faded{
         position: relative;
@@ -174,6 +174,24 @@
     }
     .Figma {
         max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Scikit-Learn{
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Tensor-Flow{
+        max-height: 15rem;
+        margin-right: -15rem;
+        margin-left:-15rem;
+        margin-bottom: 1rem;
+    }
+    .Docker{
+      max-height: 15rem;
         margin-right: -15rem;
         margin-left:-15rem;
         margin-bottom: 1rem;

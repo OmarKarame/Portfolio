@@ -16,18 +16,21 @@
     box-shadow: 0.1rem 0.15rem 0.25rem $color-black;
     transition: 300ms;
     &:hover{
-        cursor: pointer;
-        height: 2.75rem;
-        width: 5.5rem;
-        box-shadow: 0.05rem 0.075rem 0.25rem $color-black;
-        text-decoration: underline;
+      cursor: pointer;
     }
-    &:active{
-        cursor: pointer;
-        text-decoration: underline;
-        height: 2.5rem;
-        width: 5rem;
-        box-shadow: 0.1rem 0.15rem 0.25rem $color-black;
-        transition: 50ms;
-    }
+    // &:hover{
+    //     cursor: pointer;
+    //     height: 2.75rem;
+    //     width: 5.5rem;
+    //     box-shadow: 0.05rem 0.075rem 0.25rem $color-black;
+    //     text-decoration: underline;
+    // }
+    // &:active{
+    //     cursor: pointer;
+    //     text-decoration: underline;
+    //     height: 2.5rem;
+    //     width: 5rem;
+    //     box-shadow: 0.1rem 0.15rem 0.25rem $color-black;
+    //     transition: 50ms;
+    // }
 }

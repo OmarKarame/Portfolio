@@ -11,7 +11,7 @@ import Arrowhead from '../../styles/images/arrowhead.PNG';
 
 
 const InterestsSection = () => {
-    const interestsHeaders = ['Art', 'Sports', 'Space', 'Podcasts', 'Origami', 'Gaming']
+    const interestsHeaders = ['Art', 'Sports', 'Astronomy', 'Podcasts', 'Origami', 'Gaming']
     const interestsHeadersLeft = ['Art left-gif', 'Sports left-gif', 'Space left-gif', 'Podcasts left-gif', 'Origami left-gif', 'Gaming left-gif']
     const interestsHeadersRight = ['Art right-gif', 'Sports right-gif', 'Space right-gif', 'Podcasts right-gif', 'Origami right-gif', 'Gaming right-gif']
     const interestsGifs = [Art, Sports, Space, Podcasts, Origami, Gaming]
@@ -44,7 +44,7 @@ const InterestsSection = () => {
             setLeftGifClassName(interestsHeadersLeft[1])
             setRightGifClassName(interestsHeadersRight[3])
         }
-        else if (interestsHeader == 'Space'){
+        else if (interestsHeader == 'Astronomy'){
             setInterestsHeader(interestsHeaders[3])
             setInterestsGif(interestsGifs[3])
             setLeftGif(interestsGifs[2])
@@ -102,7 +102,7 @@ const InterestsSection = () => {
             setLeftGifClassName(interestsHeadersLeft[1])
             setRightGifClassName(interestsHeadersRight[3])
         }
-        else if (interestsHeader == 'Space'){
+        else if (interestsHeader == 'Astronomy'){
             setInterestsHeader(interestsHeaders[1])
             setInterestsGif(interestsGifs[1])
             setLeftGif(interestsGifs[0])

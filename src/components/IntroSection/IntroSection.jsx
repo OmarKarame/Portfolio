@@ -2,6 +2,7 @@ import './IntroSection.scss';
 import VexRobotics from '../../styles/images/vex-robotics.png';
 import QueenMary from '../../styles/images/queen-mary.png';
 import Nology from '../../styles/images/nology.png';
+import LeWagon from '../../styles/images/le-wagon.png';
 
 const IntroSection = ({handleScroll}) => {
   return (
@@ -23,6 +24,12 @@ const IntroSection = ({handleScroll}) => {
             <img src={Nology} alt="_nology Logo" className='nology' />
             <h4 className='nology-paragraph'>
                 After graduating from school, I moved to London to study computer science at Queen Mary University of London. During my time at university, I learned a lot computing and programming theory. This degree helped enhance my knowledge on computers and provided me with an introduction into programming.
+            </h4>
+          </div>
+          <div className='content-section'>
+            <img src={LeWagon} alt="Le Wagon" className='le-wagon' />
+            <h4 className='le-wagon-paragraph'>
+                After completing my first bootcamp, I began freelancing by building websites and portfolios for students who were looking to enter the workforce. I also was introduced to Data Science by one of these students. Since I am striving to improve and always learn, I decided to sign up for a Data Science bootcamp at Le Wagon. After completing the bootcamp, I am now mainly looking for data science positions.
             </h4>
           </div>
         </div>
